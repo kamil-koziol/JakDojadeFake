@@ -11,6 +11,7 @@
 		34B6E5E127591A19004553F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6E5E027591A19004553F9 /* ContentView.swift */; };
 		34B6E5E327591A1A004553F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B6E5E227591A1A004553F9 /* Assets.xcassets */; };
 		34B6E5E627591A1A004553F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B6E5E527591A1A004553F9 /* Preview Assets.xcassets */; };
+		34C7F79F27F45C4E00671D9B /* QRCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7F79E27F45C4E00671D9B /* QRCoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		34B6E5E027591A19004553F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34B6E5E227591A1A004553F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34B6E5E527591A1A004553F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34C7F79E27F45C4E00671D9B /* QRCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCoder.swift; path = ../../Autherio/Autherio/Utils/QRCoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		34B6E5DD27591A19004553F9 /* JakDojadeFake */ = {
 			isa = PBXGroup;
 			children = (
+				34C7F79E27F45C4E00671D9B /* QRCoder.swift */,
 				34B6E5DE27591A19004553F9 /* JakDojadeFakeApp.swift */,
 				34B6E5E027591A19004553F9 /* ContentView.swift */,
 				34B6E5E227591A1A004553F9 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				34B6E5E127591A19004553F9 /* ContentView.swift in Sources */,
 				34B6E5DF27591A19004553F9 /* JakDojadeFakeApp.swift in Sources */,
+				34C7F79F27F45C4E00671D9B /* QRCoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
